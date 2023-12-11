@@ -35,6 +35,7 @@ h1{
     color: #4d3f0f;
     font-weight: light;
     margin: 2rem 0 1rem 0;
+    letter-spacing: 2.6px;
 }
 
 h2{
@@ -104,7 +105,7 @@ footer{
 
 footer p{
     margin: 0.9rem;
-    color:#91751a;
+    color:#ffffff;
     text-align: center;
 }
 
@@ -115,50 +116,47 @@ footer a{
 
 footer ul, footer ol{
     list-style: none;
-    padding:0%;
-    margin:0%;
+    margin: auto;
 }
 
 footer svg{
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .connections{
     position: relative;
-    margin: 0 auto;}
+    margin: auto;}
+    
 
-    .connections ul{
-    margin: 0;
-    padding: 0;}
-
-    .connections li{
+.connections li{
     margin: 0 10px;
     padding: 0;
     list-style: none;
     display: inline-block;  }
 
-    .connections a:link{
+.connections a:link{
         border-bottom: none;       }
 
-        .connections img, .connections svg{
+.connections img, .connections svg{
     border: none;}
 
-    .connections a:hover img, .connections a:hover svg{
+.connections a:hover img, .connections a:hover svg{
     border-bottom: none;}
- 
-    .connections svg {
+      
+ .connections svg {
     margin: 2rem auto;}
-
-    .connections a:hover svg path {
+      
+.connections a:hover svg path {
     fill: #333;
     transition: all 0.2s ease-in-out;}
-
-    footer .connections a:hover svg path {
-    fill:  #C2C2C2;
+      
+footer .connections a:hover svg path {
+    fill:  #c2c2c2;
     transition: all 0.2s ease-in-out;}
 
 
+      
 
 
 
