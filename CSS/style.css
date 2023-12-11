@@ -58,12 +58,12 @@ header p{
 
 /*-- Styling links---*/
 a{
-    color: #91751a;
+    color: white;
     text-decoration: none;
 }
 
 a:hover{
-    color:azure;
+    color:#4d3f0f;
 }
 
 /*---style nav---*/
