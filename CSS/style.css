@@ -117,3 +117,8 @@ footer ul, footer ol{
     padding:0%;
     margin:0%;
 }
+
+footer svg{
+    display: block;
+    margin: 0 auto;
+}
