@@ -34,13 +34,13 @@ h1{
     font-size:5.063rem;
     color: #4d3f0f;
     font-weight: light;
-    margin: 2rem 0 1rem 0;
+    margin: 0 0 1rem 0;
     letter-spacing: 2.6px;
 }
 
 h2{
     font-size:2.25rem;
-    margin: 3rem 0 1rem 0;
+    margin: 0rem 0 1rem 0;
 }
 
 blockquote{
@@ -157,10 +157,87 @@ footer .connections a:hover svg path {
     fill:  #c2c2c2;
     transition: all 0.2s ease-in-out;}
 
+/*---style grid---*/
 
-      
+.grid-container-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 0px; /* Adjust the gap between items as needed */
+    padding: 0px;
+    
+}
 
+.item-one  {
+    background-color: none;
+    border: none;
+    padding: none;
+    margin-bottom: 0;
+}
 
+.img-one {
+    max-width: 100%;
+    height: auto    ;
+}
 
+.grid-container-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 0px; /* Adjust the gap between items as needed */
+    padding: 0px;
+    
+}
 
+.item-two {
+    background-color: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 0;
+}
 
+.img-two {
+    max-width: 100%;
+    height: auto;
+    padding-top: 23rem;
+}
+
+.grid-container-three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 0px; /* Adjust the gap between items as needed */
+    padding: 0px;
+    
+}
+
+.item-three {
+    background-color: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.img-three {
+    max-width: 100%;
+    height: auto;
+    padding-top: 4rem;
+}
+
+.grid-container-four {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 0px; /* Adjust the gap between items as needed */
+    padding: 0px;
+    
+}
+
+.item-four {
+    background-color: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.img-four {
+    max-width: 100%;
+    height: auto;
+    padding-top: 14rem;
+}
